@@ -1,4 +1,12 @@
 name: il mio primo github action 
 on:  
   push: 
-  
+
+jobs: 
+  italian-job: 
+    runs-on: ubuntu-lates
+    steps: 
+      - run: ls 
+      - run: sudo apt update
+      - run: mkdir w 
+      
