@@ -9,4 +9,4 @@ jobs:
       - run: ls 
       - run: sudo apt update
       - run: mkdir w 
-      
+      - run: java -version 
